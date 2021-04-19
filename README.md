@@ -1,6 +1,6 @@
-Standardized Neuroimaging Data Management inside Synapsy.
+Standardization of Neuroimaging Data Management inside Synapsy.
 
-It can be viewed at https://sebastientourbier.github.io/synapsy-annual-04-2021/.
+It can be viewed at https://sebastientourbier.github.io/synapsy-annual-meeting-04-21/.
 
 Presented in the context of the annual meeting of the NCCR-Synapsy project (https://nccr-synapsy.ch).
 
