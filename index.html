@@ -21,7 +21,7 @@
 		}
 		</style>
 
-		<title>Standardized Neuroimaging Data Management inside Synapsy</title>
+		<title>Standardization of Neuroimaging Data Management inside Synapsy</title>
 
 		<meta name="description" content="Annual NCCR-Synapsy meeting updates on Neuroimaging Data Management">
 		<meta name="author" content="Sebastien Tourbier">
@@ -50,12 +50,12 @@
 				<section>
 					<br>
 					<br>
-					<h2>Standardized Neuroimaging Data Management inside Synapsy</h2>
+					<h2>Standardization of Neuroimaging Data Management inside Synapsy</h2>
 					<p>
-						<small>Online annual meeting</small>
+						<small>Online annual 2021 meeting</small>
 					</p>
 					<p>
-						<small>by <a href="https://wp.unil.ch/connectomics/sebastien-tourbier/">Sebastien Tourbier</a></small>
+						<small>by <a href="https://wp.unil.ch/connectomics/prof-patric-hagmann/">Patric Hagmann</a> and <a href="https://wp.unil.ch/connectomics/sebastien-tourbier/">Sebastien Tourbier</a></small>
 					</p>
 					<p>
 						<small>22 April 2021</small>
@@ -67,30 +67,47 @@
 				</section>
 
 				<section>
-					<h2>Why?</h2>
-				</section>
+					<section>
+						<h2>Why?</h2>
+					</section>
 
-				<section>
-					<h3>New Data Management Plan requirements of SNSF</h3>
-					<p>
-						<small>
-							<ul>
-								
-								<li><a href="www.snf.ch/SiteCollectionDocuments/allg_reglement_16_e.pdf">Art 43 SNSF Funding Regulations</a>  and <a href="www.snf.ch/en/theSNSF/research-policies/open_research_data/Pages/default.aspx#SNSF policy on Open Research Data">SNSF Open Research Data Policy</a>
-								</li>
-								<br>
-								<li>SNSF expects all its funded researchers:<br><br>
-									<ul>
-										<li>to <a style="color:chocolate">store the research data</a> they have worked on and produced during the course of their research work</li>
-										<li>to <a style="color:chocolate">share these data</a> with other researchers, unless they are bound by legal, ethical, copyright, confidentiality or other clauses</li>
-										<li>to <a style="color:chocolate">deposit their data and metadata onto existing public repositories</a> in formats that anyone can find, access and reuse without restriction, conformed with the <a style="color:chocolate">Findable Accessible Interoperable Reusable (FAIR) principles</a></li>
-									</ul>
-								</li>
-								
-							</ul>
-						</small>
-					</p>
+					<section>
+						<h3>Execution of DMP satisfying open science requirements</h3>
+						<p>
+							<small>
+								<ul>
+									<li>SNSF expects all its funded researchers:<br><br>
+										<ul>
+											<li>to <a style="color:chocolate">store the research data</a> they have worked on and produced during the course of their research work</li>
+											<li>to <a style="color:chocolate">share these data</a> with other researchers, unless they are bound by legal, ethical, copyright, confidentiality or other clauses</li>
+											<li>to <a style="color:chocolate">deposit their data and metadata onto existing public repositories</a> in formats that anyone can find, access and reuse without restriction, conformed with the <a style="color:chocolate">Findable Accessible Interoperable Reusable (FAIR) principles</a></li>
+										</ul><br><br>
 
+										<center>
+											<a href="http://www.snf.ch/SiteCollectionDocuments/allg_reglement_16_e.pdf">Art 47 SNSF Funding Regulations</a>  and <a href="http://www.snf.ch/en/theSNSF/research-policies/open_research_data/Pages/default.aspx#SNSF policy on Open Research Data">SNSF Open Research Data Policy</a>
+										</center>
+
+									</li>
+									
+								</ul>
+							</small>
+						</p>
+
+					</section>
+
+					<section>
+						<h3>Advantages of adopting a standard</h3>
+						<p>
+							<small>
+								<ul>
+									<li><a style="color:dodgerblue">Ease of sharing and reuse</a> - No need to spend a considerable amount of time to understand data organization and adapt code to each researcher or lab.</li><br>
+									<li><a style="color:dodgerblue">Automated processing pipelines</a> can be built to analyze data</li><br>
+									<li><a style="color:dodgerblue">Meta-analysis accross datasets</a> become possible</li>
+								</ul>
+							</small>
+						</p>
+
+					</section>
 				</section>
 
 				<section>
@@ -99,24 +116,113 @@
 					</section>
 
 					<section>
-						<h3>FAIR Solution</h3>
+						<h3>Keys towards FAIR neuroimaging data in Synapsy</h3>
+						<p>
+							<small>
+								<ul>
+									<li><a style="color:dodgerblue">Standard to organize and describe neuroimaging data</a> along with metadata: <a style="color:chocolate">Brain Imaging Data Structure (BIDS)</a> - <a href="https://bids.neuroimaging.io/">https://bids.neuroimaging.io/</a></li><br>
+									<li><a style="color:dodgerblue">Distributed data versioning and management system</a> tailored to neuroimaging data: <a style="color:chocolate">Datalad</a> -  <a href="https://www.datalad.org/">https://www.datalad.org/</a></li><br>
+									<li><a style="color:dodgerblue">Distributed storage of neuroimaging data</a> accross the different institution servers with <a style="color:chocolate">access controlled by PIs</a>.</li><br>
+								</ul>
+							</small>
+						</p>
+
+					</section>
+
+					<section>
+						<h3>Road Map</h3>
 
 						<center>
-							<img data-src="images/dmp_solution.png" alt="A FAIR solution" style="height: 480px; margin: 0.5rem 0.5rem 0.5rem a0.5rem; background: transparent;" class="demo-logo">
+							<img data-src="images/dmp_solution.001.png" alt="A FAIR solution" style="height: 480px; margin: 0.5rem 0.5rem 0.5rem a0.5rem; background: transparent;" class="demo-logo">
 						</center>
 					</section>
 
-					<section data-background-iframe="https://nccr-synapsy.ch/" data-background-interactive>
-						<div style="position: absolute; width: 40%; right: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 30px; text-align: left;">
-							<h2>Slide with embedded HTML page</h2>
-							<small><a href="https://nccr-synapsy.ch/">https://nccr-synapsy.ch/</a></small>
-						</div>
-					</section>	
+					<section>
+						<h3>Road Map</h3>
+
+						<center>
+							<img data-src="images/dmp_solution.002.png" alt="A FAIR solution" style="height: 480px; margin: 0.5rem 0.5rem 0.5rem a0.5rem; background: transparent;" class="demo-logo">
+						</center>
+					</section>
+
+					<section>
+						<h3>Road Map</h3>
+
+						<center>
+							<img data-src="images/dmp_solution.003.png" alt="A FAIR solution" style="height: 480px; margin: 0.5rem 0.5rem 0.5rem a0.5rem; background: transparent;" class="demo-logo">
+						</center>
+					</section>
+
+					<section>
+						<h3>Road Map</h3>
+
+						<center>
+							<img data-src="images/dmp_solution.004.png" alt="A FAIR solution" style="height: 480px; margin: 0.5rem 0.5rem 0.5rem a0.5rem; background: transparent;" class="demo-logo">
+						</center>
+					</section>
+
+					<section>
+						<h3>Road Map</h3>
+
+						<center>
+							<img data-src="images/dmp_solution.005.png" alt="A FAIR solution" style="height: 480px; margin: 0.5rem 0.5rem 0.5rem a0.5rem; background: transparent;" class="demo-logo">
+						</center>
+					</section>
+
+					<section>
+						<h3> Potential future perspectives</h3>
+
+						<center>
+							<img data-src="images/dmp_solution.006.png" alt="National Data Streams Call" style="height: 480px; margin: 0.5rem 0.5rem 0.5rem a0.5rem; background: transparent;" class="demo-logo">
+						</center>
+					</section>
+
+					<section>
+						<h3>Progress</h3>
+
+						<center>
+							<img data-src="images/dmp_progress.001.png" alt="DMP execution progress" style="height: 480px; margin: 0.5rem 0.5rem 0.5rem 0.5rem; background: transparent;" class="demo-logo">
+						</center>
+					</section>
+
+				</section>
+
+				<section>
+					<h3>In a nutschell</h3>
+					<small>
+						<p style="text-align: left">
+							
+							In 1 year:<br>
+							<ul>
+								<li><a style="color:dodgerblue">Synapsy DMP implemented for neuroimaging cohorts</a> based on the presented bottom-up approach and in control of each PI</li>
+							</ul>
+						</p>
+
+						<p style="text-align: left">
+							<a style="color:dodgerblue">&#8594;</a> Facilitate future collaborations between groups
+						</p>
+
+						<p style="text-align: left">
+							<a style="color:dodgerblue">&#8594;</a> Enable the analysis of Synapsy neuroimaging cohort with a collection of automated processing pipelines (<a href="https://bids-apps.neuroimaging.io/">https://bids-apps.neuroimaging.io/</a>)
+						</p>
+
+						<p style="text-align: left">
+							<a style="color:dodgerblue">&#8594;</a> Ease the sharing of  Synapsy neuroimaging cohorts on open data repositories to fully satisfy SNSF FAIR research data requirements
+						</p>
+					</small>
 
 				</section>
 
 				<section>
 					<h3>Thank you for your attention!</h3>
+
+					<p style="margin-top: 3em;">
+						<center>
+							<small>
+							Slides could be viewed at<br> <a href="https://sebastientourbier.github.io/synapsy-annual-meeting-04-21/">https://sebastientourbier.github.io/synapsy-annual-meeting-04-21/</a> 
+							</small>
+						</center>
+					</p>
 				</section>
 
 			</div>
