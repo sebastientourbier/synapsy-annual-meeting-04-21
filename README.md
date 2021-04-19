@@ -1,4 +1,8 @@
-Template for RevealJS-based presentations for NCCR Synapsy project (https://nccr-synapsy.ch).
+Standardized Neuroimaging Data Management inside Synapsy.
+
+It can be viewed at https://sebastientourbier.github.io/synapsy-annual-04-2021/.
+
+Presented in the context of the annual meeting of the NCCR-Synapsy project (https://nccr-synapsy.ch).
 
 
 ## License
