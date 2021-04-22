@@ -1,9 +1,10 @@
-Standardization of Neuroimaging Data Management inside Synapsy.
+Presentation about "Standardization of Neuroimaging Data Management inside Synapsy".
 
-It can be viewed at https://sebastientourbier.github.io/synapsy-annual-meeting-04-21/.
+Interactive slides can be viewed at https://sebastientourbier.github.io/synapsy-annual-meeting-04-21/.
+
+Generated PDF can be downloaded at https://github.com/sebastientourbier/synapsy-annual-meeting-04-21/raw/main/synapsy-dmp-neurodata-annual-meeting-21.pdf.
 
 Presented in the context of the annual meeting of the NCCR-Synapsy project (https://nccr-synapsy.ch).
-
 
 ## License
 
